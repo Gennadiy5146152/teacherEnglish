@@ -1,0 +1,141 @@
+/*Сброс стилей */
+ul, ul li {
+	list-style: none;
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*Header*/
+.container {
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-list {
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+}
+
+.header-list-item {
+    padding-right: 40px;
+}
+
+.header-list-block {
+    display: inline-flex;
+}
+
+.header-link {
+    color: #D1BFB1; 
+}
+
+.header-link:focus {
+    color: #603429; 
+}
+
+.header-link:hover {
+    color: #603429; 
+}
+
+.header-link:active {
+    color: #212625; 
+}
+
+/*Main*/
+
+.main-header {
+    text-align: center;
+    color: #4A8AAA;
+}
+
+.main-header1 {
+    display: inline-flex;
+    color: #D1BFB1;
+}
+
+.main-information {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35%;
+}
+
+.main-information-block-text {
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+    color: white;
+}
+
+
+.main-information-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    text-align:left;
+    font-family: 'Maven Pro';
+}
+
+/*Кнопка записаться и ссылки на соцсети*/
+
+.links {
+    display: flex;
+    
+}
+
+.icons-link {
+    padding-right: 20px;
+}
+.icons-links {
+    justify-self: flex-end;
+}
+
+.imgFon {
+    background-image: url("../img/IMG0660.jpeg");
+    background-size: cover;
+}
+
+.button-enroll {
+    position: fixed;
+    bottom: 100px;
+}
+
+.btn-primary{
+    background-color: #c2aa97;
+    color: white;
+    border-color: #D1BFB1;
+    }
+
+.btn-primary:hover{
+    background-color: #603429;
+    border-color: #D1BFB1;
+}
+
+.btn-primary:focus{
+    background-color: #603429;
+    border-color: #D1BFB1;
+}
+.btn-primary:active{
+    background-color: #212625;
+    border-color: #D1BFB1;
+}
+
+
+
+
+
+
